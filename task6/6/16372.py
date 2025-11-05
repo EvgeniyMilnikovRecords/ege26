@@ -1,9 +1,6 @@
 from turtle import *
 
-screensize(3000, 3000)
-tracer(0)
-m = 10
-lt(90)
+
 
 for i in range(2):
     fd(23 * m)
