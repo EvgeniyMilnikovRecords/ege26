@@ -3,7 +3,7 @@ from string import printable as alph
 def convert(num, sys):
     res = ''
     while num:
-        res += alph[num % sys]   # почему скобки квадратные?
+        res += alph[num % sys]   # почему скобки квадратные? # потому что список
         num //= sys
     return res[::-1]
 for x in range(1 , 3001):
