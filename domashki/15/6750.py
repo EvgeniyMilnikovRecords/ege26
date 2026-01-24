@@ -7,7 +7,7 @@ def f(a):
                 return False
     return True
 
-for a in range(900, 1000):
+for a in range(900 , 1000):
     if f(a):
         print(a )
 
