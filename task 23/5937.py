@@ -1,4 +1,4 @@
-def f(start, end, cnt):
+ def f(start, end, cnt):
     if start % 2 == 0: cnt += 1
     if start == end and cnt <= 15: return 1
     if start > end or cnt > 15: return 0
