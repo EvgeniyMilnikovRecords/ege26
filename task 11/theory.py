@@ -1,3 +1,4 @@
+```
 from math import log2, ceil
 
 # 1855
@@ -20,3 +21,4 @@ for L in range(1, 100_000):
     if 3548 * I > 12 * 2 ** 10:
         print(L)
         break
+        ```

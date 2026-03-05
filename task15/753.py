@@ -1,3 +1,4 @@
+```
 from itertools import combinations
 def f(x):
     p = 5 <= x <= 30
@@ -12,6 +13,7 @@ for a1, a2 in combinations(line, 2):
         ans.append(a2 - a1)
 
 print(max(ans))
+```
 
 
 

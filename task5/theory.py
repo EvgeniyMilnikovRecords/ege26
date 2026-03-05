@@ -1,3 +1,4 @@
+```
 # Системы счисления
 
 # Двоичная система
@@ -73,3 +74,4 @@ num_3 = 'AF5'
 print(sum(map(lambda x: int(x, 36), 'AF5')))
 
 print(*map(lambda lol: lol + 10, [3 , 4, 5]))
+```
