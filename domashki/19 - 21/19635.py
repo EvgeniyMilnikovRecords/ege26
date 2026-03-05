@@ -8,6 +8,6 @@ def f(x, y, s):
     ]
     return any(h) if (s - 1) % 2 == 0 else all(h)
 
-print('19', [y for y in range(53, 1000) if f(48, y, 2) and not f(48, y, 1)])
+print('19', [y for y in range(53, 1000) if f(48, y, 2)])
 print('20', [y for y in range(53, 1000) if f(48, y, 3) and not f(48, y, 1)])
 print('21', [y for y in range(53, 1000) if f(48, y, 4) and not f(48, y, 2)])
