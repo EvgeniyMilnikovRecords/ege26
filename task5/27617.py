@@ -1,4 +1,4 @@
-
+a = []
 for n in range(1, 100_000):
     r = f'{n:b}'
     if n % 3 == 0:
