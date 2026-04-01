@@ -1,0 +1,16 @@
+from string import printable
+from itertools import *
+
+cnt = 0
+
+for val in product(printable[:16], repeat = 5):
+    val = ''.join(val)
+    if val.count('6') == 2:
+        for i in val:
+            if i in '02468ace':
+                val = val.replace(i, '*')
+
+        if '*6*' not in val and '6*' not in val and '*6' not in val and '66' not in val:
+            cnt += 1
+
+print(cnt)

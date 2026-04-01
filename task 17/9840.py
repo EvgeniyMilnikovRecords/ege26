@@ -1,4 +1,4 @@
-with open(r'.\filess\17_9840.txt') as file:
+with open(r'files/17_9840.txt') as file:
     data = [int(i) for i in file]
 
 max39 = (i for i in data if abs(i) % 100 == 39)
