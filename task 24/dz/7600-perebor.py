@@ -3,7 +3,7 @@ with open(r'..\files\24_7600.txt') as file:
 
 ans=1
 cnt =1
-for i in range(len(data) - 1, ):
+for i in range(len(data) - 1):
         if data[i] in 'QRS' and data[i+1]  in 'QRS':
             cnt =1
         else:
